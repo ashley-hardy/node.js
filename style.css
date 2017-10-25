@@ -1,0 +1,118 @@
+header {
+  background-color: #333;
+  font: 400 20px/1.5 'Source Sans Pro',Open Sans,Roboto,'San Francisco',Helvetica,Arial,sans-serif;
+  display: block;
+  width: 100%;
+}
+
+p {
+  text-align: center;
+  font: 400 20px/1.5 'Source Sans Pro',Open Sans,Roboto,'San Francisco',Helvetica,Arial,sans-serif;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style: none;
+}
+
+li a {
+  display: flex;
+  padding: 10px;
+  font-size: 14px;
+  color: #ccc;
+  font: 'Source Sans Pro', Open Sans, Roboto,'San Francisco',Helvetica,Arial,sans-serif;
+}
+
+.alert {
+  color: #333;
+  font-size: 130%;
+  background-color: #eaf5e9;
+  padding: 5px 15px;
+  border-radius: 2px;
+  margin-top: 1em;
+  margin-right: auto;
+  margin-left: auto;
+  width: 80%;
+}
+
+img {
+  display: block;
+  margin: auto;
+  max-height: 75px;
+  max-width: 180px;
+}
+
+.intro {
+    width: 80%;
+    padding: 5px 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+a {
+  color: #43853d;
+  text-decoration: none;
+}
+
+.download {
+  font-weight: 400;
+  font-size: 1.5em;
+}
+
+button {
+  width: 275px;
+  margin: 10px;
+  padding-top: 10px;
+  padding-bottom: 0;
+  background-color: #026e00;
+  color: #fff;
+  font-size: 30px;
+  font-weight: 400;
+  border: none;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.button-text {
+  font-size: 15px;
+}
+
+footer {
+  background-color: #333;
+  padding: 10px;
+  font: 400 20px/1.5 'Source Sans Pro',Open Sans,Roboto,'San Francisco',Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  padding: 10px;
+}
+
+.footer-text {
+  background-color: #333;
+  color: #ccc;
+  text-align: left;
+  font-size: 14px;
+  padding: 10px;
+}
+
+.info {
+  display: inline-block;
+  float: right;
+  padding-right: 5px;
+  padding-bottom: 7px;
+  padding-left: 5px;
+  color: #ccc;
+  font: 'Source Sans Pro', Open Sans, Roboto,'San Francisco',Helvetica,Arial,sans-serif;
+}
+
+.image-footer {
+  display: inline-block;
+  float: left;
+  max-height: 30%;
+  max-width: 50%;
+  padding-left: 15px;
+}
